@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400wght;@500&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="profile">
+            <img id="image" src="./assets/iagor.jpg" alt="imagem não encontrada.">
+            <p>@iagoor</p>
+        </div>
+
+        <div id="switch" onclick="toggleMode()">
+            <button></button>
+            <span></span>
+        </div>
+
+        <ul>
+            <li>
+                <a href="#">About me</a>
+            </li>
+            <li>
+                <a href="#">Contacts</a>
+            </li>
+            <li>
+                <a href="https://github.com/iagooor" target="_blank">My portfolio</a>
+            </li>
+            <li>
+                <a href="https://rocketseat.com.br/explorer" target="_blank">Sent email</a>
+            </li>
+        <!-- (_blank) é utilizado para abrir links em outra página na web -->
+        </ul>
+        <div id="social-links">
+            <a href="https://github.com/iagooor" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="https://instagram.com/iagorlrnc" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://youtube.com" target="_blank">
+                <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+            <a href="https://www.linkedin.com/in/iagor-louren%C3%A7o-b60006258/" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+        </div>
+
+        <footer id="footer">
+            By <a href="#">@iagoor</a>
+        </footer>
+
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

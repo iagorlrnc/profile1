@@ -1,0 +1,20 @@
+#include <stdio.h> 
+
+int main(){
+  int n, maior;
+  char op;
+
+  scanf("%d", &maior);
+
+  do{
+    scanf("%d", &n);
+    if (n > maior){
+      maior = n;    
+    }
+    printf("Continuar s ou n?%c \n", op);
+    scanf("%c", &op);
+  } while (op != 'n');
+
+  printf("%d", maior);
+
+}
